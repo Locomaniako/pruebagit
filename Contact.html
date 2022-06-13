@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Alexis-Sanchez-Sanchez" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
 
     <title>Contact</title>
 <!--Iconos-->
@@ -32,36 +33,44 @@
         </div>
     </header>
     <h1>Contact me</h1>
-    <head>
-         <div>
-            <h3>
-                Estoy interesado en oportunidades independientes, especialmente
-                <br>
+    <div id="ubicacion">
+        <div class="cont-ubicacion">
+            <h4>Estoy interesado en oportunidades independientes, especialmente
                 proyectos ambiciosos o grandes. Sin embargo, si tiene otra solicitud
-                <br>
                 o pregunta, no dude en utilizar el formulario.
-            </h3>
+            </h4>
         </div>
-    </head>    
-    <br>
-    <div>
-    <form action="">  <!--Etiqueta Padre -->
-        <label for="name"> nombre:</label> <!---->
-        <input type="text" name="" id="" required>
-        <br>
-        <label for="mail">mail</label>
-        <input type="text" name="" id="" required>
-        <br>
-        <label for="subject">subject</label>
-        <input type="text" name="" id="">
-        <br>
-        <textarea name="message" id="" cols="30" rows="10"></textarea>
-        <br>
+        <div class="iframe-ubi">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.53964242538!2d-97.09924684918919!3d18.86312636346728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c51d3d2115ce25%3A0x5de185f56194859d!2sGamePlanet%20Plaza%20Valle%20Orizaba!5e0!3m2!1ses-419!2smx!4v1654727908667!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </div>
-    </form>
     <div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7550.807915612426!2d-97.10448672259893!3d18.869152184042836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c51d4f88ebaf71%3A0xe1fdf8ac6ad657c4!2zMTjCsDUyJzI1LjYiTiA5N8KwMDYnMjAuMCJX!5e0!3m2!1ses-419!2smx!4v1652125282477!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <form action="">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">País:</label>
+              <select class="form-select" aria-label="Default select example">
+                <option value="0" selected disabled>Seleccionar...</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Mexico">Mexico</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            </div>
+            <button type="submit" class="buton">Enviar</button>
+          </form>
+
 <!--------------------------------FOOTER-------------------------------------------------------->
     <footer class="pie-pagina">
         <div class="grupo-1">
